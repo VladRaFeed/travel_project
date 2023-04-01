@@ -1,0 +1,24 @@
+
+/* Utils */
+@import url('./utils/varibles.css');
+@import url('./utils/visually-hidden.css');
+/* base */
+@import url('./base/common.css');
+@import url('./base/reset.css');
+/* layouts */
+@import url('./layout/header.css');
+@import url('./layout/hero.css');
+@import url('./layout/world_travel.css');
+@import url('./layout/day1.css');
+@import url('./layout/day2.css');
+@import url('./layout/day3.css');
+@import url('./layout/day4.css');
+@import url('./layout/day5.css');
+@import url('./layout/day6.css');
+@import url('./layout/day7.css');
+@import url('./layout/day8.css');
+@import url('./layout/price.css');
+@import url('./layout/online_form.css');
+@import url('./layout/our_team.css');
+/* modal */
+@import url('./layout/booking_modal.css');
