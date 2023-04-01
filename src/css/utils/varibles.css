@@ -1,0 +1,16 @@
+:root {
+    --primary-color: #275553;
+    --secondary-color: #F47648;
+    --main-text-color: #212121;
+    --secondary-text-color: #313131;
+    --main-white-color: #ffffff;
+    --accent-color: #DEDEDE;
+    --accent-text-color: #ACACAC;
+    --third-text-color: #BDBDBD;
+    --main-black-color: #000000;
+    --forth-text-color: #5A5A5A;
+    --main-animation: 250ms cubic-bezier(.58,.22,.46,.86);
+    --dots-color: #D3E7E3;
+    --secondary-font: "Montserrat", sans-serif;
+    --third-font: "Inter", sans-serif;
+}
