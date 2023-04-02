@@ -1,3 +1,27 @@
 .header {
-    color: hotpink;
+  padding-top: 36px;
+}
+
+.nav-item {
+  font-family: 'Lato';
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--primary-color);
+}
+
+.logo-img {
+  width: 167.11px;
+  height: 37.18px;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-nav {
+  display: flex;
+  list-style: none;
+  gap: 36px;
 }
