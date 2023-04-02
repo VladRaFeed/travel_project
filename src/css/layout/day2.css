@@ -1,3 +1,11 @@
-.day2 {
-    color: brown;
+.title-dark {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.33;
+
+  color: var(--main-text-color);
+}
+
+.title-orange {
+  color: var(--secondary-color);
 }
