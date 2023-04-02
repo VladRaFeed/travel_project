@@ -9,7 +9,7 @@
 }
 .svg-route {
   position: absolute;
-  z-index: -2;
+  z-index: 1;
   margin-left: 23px;
 }
 
