@@ -1,3 +1,88 @@
-.day5 {
-    color: chartreuse;
+.second-title {
+  margin-bottom: 24px;
+  color: var(--main-white-color);
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.33;
+}
+@media screen and (min-width: 770px) {
+  .second-title {
+    font-size: 40px;
+    line-height: 1.25;
+  }
+}
+.img-bcg {
+  position: absolute;
+  z-index: -5;
+}
+.orange-title {
+  color: var(--secondary-color);
+}
+.day-five-six {
+  background-image: url(../../images/day56-bcg-mobile.jpg);
+}
+@media (min-width: 770px) {
+  .day-five-six {
+    background-image: url(../../images/d56-bcg-tablet.jpg);
+  }
+}
+@media (min-width: 1400px) {
+  .day-five-six {
+    background-image: url(../../images/d56-bcg-dt.jpg);
+  }
+}
+p {
+  color: var(--main-white-color);
+}
+.additional {
+  margin-top: 24px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.4;
+}
+.add-list-title {
+  margin-top: 16px;
+}
+.add-list-text {
+  margin-top: 8px;
+  color: #bababa;
+  font-size: 14px;
+  opacity: 0.7;
+}
+.slider-list {
+  margin-top: 24px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.btn-section {
+  margin-top: 32px;
+}
+.day-six {
+  margin-top: 48px;
+}
+.slider-item {
+  display: contents;
+}
+.img-slider {
+  width: 288px;
+}
+hr {
+  margin-top: 16px;
+}
+.btn {
+  width: 38px;
+  height: 38px;
+  border: rgba(255, 255, 255, 0.5) 1px solid;
+  border-radius: 50%;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+.btn:hover,
+.btn:focus {
+  color: var(--main-white-color);
+  border-color: var(--main-white-color);
 }
