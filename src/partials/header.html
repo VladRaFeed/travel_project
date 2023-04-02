@@ -1,16 +1,27 @@
 <header class="header">
   <div class="container">
     <nav class="header-nav">
-      <a href="#" class="logo">
-        <svg class="logo-img"><use></use></svg>
-      </a>
+      <div class="logo-item">
+        <a href="#" class="logo">
+          <svg class="logo-img"><use href="../images/icon.svg#logo"></use></svg>
+        </a>
+      </div>
+      <div class="main-nav">
+        <ul class="site-nav">
+          <li class="nav-item">Tour schedule</li>
+          <li class="nav-item">How to sign up</li>
+          <li class="nav-item">Team</li>
+        </ul>
+        <button class="main-button" type="button">Book</button>
 
-      <ul class="site-nav">
-        <li>Tour schedule</li>
-        <li>How to sign up</li>
-        <li>Team</li>
-      </ul>
-      <button class="button">Book</button>
+        <button class="js-open-menu button-burger" type="button">
+          <svg width="28" height="28">
+            <use class="icon-burger" href="../images/icon.svg#burger"></use>
+          </svg>
+        </button>
+      </div>
     </nav>
+
+    <!-- menu mobile -->
   </div>
 </header>
