@@ -183,3 +183,10 @@
     }
 
 }
+
+@media (min-width: 1440px) {
+    .day7-info {
+        width: 481px;
+        margin-left: auto;
+    }
+}
