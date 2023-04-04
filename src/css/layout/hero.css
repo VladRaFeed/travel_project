@@ -182,20 +182,20 @@
 }
 
 .swiper {
-  width: 300px;
-  height: 267px;
+  width: 288px;
+  height: 288px;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 770px) {
   .swiper {
-    width: 760px;
+    width: 670px;
     height: 300px;
   }
 }
 
-.swiper.image-slider {
+/* .swiper.image-slider {
   padding: 30px 0 70px 0;
-}
+} */
 .image-wrapper {
   text-align: center;
 }
