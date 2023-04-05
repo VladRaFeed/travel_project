@@ -27,10 +27,10 @@ const swiper = new Swiper('.image-slider', {
     // when window width is >= 480px
     770: {
       slidesPerView: 2.8,
-      //spaceBetween: 30,
+      spaceBetween: 10,
     },
     // when window width is >= 640px
-    1400: {
+    1350: {
       slidesPerView: 1.8,
       spaceBetween: 10,
     },

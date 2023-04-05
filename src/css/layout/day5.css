@@ -20,21 +20,24 @@
 .day-five-six .container {
   padding-bottom: 74px;
   background: url(../../images/day56/pngegg1.png) center top -10% no-repeat,
-    url(../../images/day56/Group239.png) center bottom -5% no-repeat,
+    url(../../images/day56/cloud.png) center bottom -5% no-repeat,
     url(../../images/day56/day56-bcg-mobile.jpg) right top no-repeat;
 }
 @media (min-width: 770px) {
   .day-five-six .container {
     padding-bottom: 123px;
+    padding-top: 16px;
     background: url(../../images/day56/pngegg1.png) right 30% top -12% no-repeat,
       url(../../images/day56/cloud-tablet.png) center bottom -4% no-repeat,
       url(../../images/day56/d56-bcg-tablet.jpg) right top no-repeat;
   }
 }
-@media (min-width: 1400px) {
+@media (min-width: 1440px) {
   .day-five-six .container {
-    background: url(../../images/day56/pngegg1.png) center top -10% no-repeat,
-      url(../../images/day56/Group239.png) center bottom -5% no-repeat,
+    padding-top: 124px;
+    padding-bottom: 217px;
+    background: url(../../images/day56/pngegg1.png) right 12% top -17% no-repeat,
+      url(../../images/day56/cloud-dt.png) center bottom -14% no-repeat,
       url(../../images/day56/d56-bcg-dt.jpg) right top no-repeat;
   }
 }
@@ -127,6 +130,7 @@ hr {
   .day-five {
     display: flex;
     justify-content: space-between;
+    flex-direction: row-reverse;
   }
   .btn-section {
     display: none;
@@ -134,8 +138,17 @@ hr {
   .five-text {
     width: 536px;
   }
-  /* .swiper {
+  .swiper {
     width: 633px;
     height: 320px;
-  } */
+  }
+  .img-slider {
+    width: 320px;
+  }
+  .day-six {
+    display: flex;
+  }
+  .day-six-text {
+    width: 506px;
+  }
 }
