@@ -6,6 +6,7 @@
 @import url('./base/reset.css');
 /* components */
 @import url('./components/container.css');
+@import url('./components/route.css');
 /* layouts */
 @import url('./layout/header.css');
 @import url('./layout/hero.css');
@@ -14,8 +15,8 @@
 @import url('./layout/day2.css');
 @import url('./layout/day3.css');
 @import url('./layout/day4.css');
-@import url('./layout/day5.css');
-@import url('./layout/day6.css');
+@import url('./layout/day56.css');
+
 @import url('./layout/day7.css');
 @import url('./layout/day8.css');
 @import url('./layout/price.css');

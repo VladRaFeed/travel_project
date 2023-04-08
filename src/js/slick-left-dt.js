@@ -1,5 +1,5 @@
-$('.responsive').slick({
-  //dots: true,
+$('.responsive-dt').slickDt({
+  // dots: true,
   prevArrow: '<button type="button" class="my-slick-prev">&xlarr;</button>',
   nextArrow: '<button type="button" class="my-slick-next">&xrarr;</button>',
   infinite: true,
@@ -11,18 +11,17 @@ $('.responsive').slick({
 
   responsive: [
     {
-      breakpoint: 770,
-      settings: {
-        slidesToShow: 2,
-      },
-    },
-    {
       breakpoint: 1440,
       settings: {
         slidesToShow: 2,
       },
     },
-
+    {
+      breakpoint: 3000,
+      settings: {
+        slidesToShow: 2,
+      },
+    },
     // You can unslick at a given breakpoint now by adding:
     // settings: "unslick"
     // instead of a settings object
