@@ -18,14 +18,14 @@
   color: var(--secondary-color);
 }
 .day-five-six .container {
-  padding-bottom: 74px;
+  padding-bottom: 144px;
   background: url(../../images/day56/pngegg1.png) center top -10% no-repeat,
     url(../../images/day56/cloud.png) center bottom -5% no-repeat,
     url(../../images/day56/day56-bcg-mobile.jpg) right top no-repeat;
 }
 @media (min-width: 770px) {
   .day-five-six .container {
-    padding-bottom: 123px;
+    padding-bottom: 193px;
     padding-top: 16px;
     background: url(../../images/day56/pngegg1.png) right 30% top -12% no-repeat,
       url(../../images/day56/cloud-tablet.png) center bottom -4% no-repeat,
@@ -34,10 +34,11 @@
 }
 @media (min-width: 1440px) {
   .day-five-six .container {
+    overflow: hidden;
     padding-top: 124px;
     padding-bottom: 217px;
     background: url(../../images/day56/pngegg1.png) right 12% top -17% no-repeat,
-      url(../../images/day56/cloud-dt.png) center bottom -14% no-repeat,
+      url(../../images/day56/cloud-dt.png) center bottom -15% no-repeat,
       url(../../images/day56/d56-bcg-dt.jpg) right top no-repeat;
   }
 }
@@ -65,15 +66,10 @@ p {
   position: relative;
   z-index: 3;
   margin-top: 24px;
-  /* display: flex;
-  flex-wrap: nowrap; */
 }
 
-.btn-section {
-  margin-top: 32px;
-}
 .day-six {
-  margin-top: 48px;
+  margin-top: 118px;
 }
 .slider-item {
   display: contents;
@@ -83,23 +79,6 @@ p {
 }
 hr {
   margin-top: 16px;
-}
-.btn {
-  width: 38px;
-  height: 38px;
-  border: rgba(255, 255, 255, 0.5) 1px solid;
-  border-radius: 50%;
-  background-color: transparent;
-  color: rgba(255, 255, 255, 0.5);
-  cursor: pointer;
-}
-.btn:hover,
-.btn:focus {
-  color: var(--main-white-color);
-  border-color: var(--main-white-color);
-}
-.btn-next {
-  margin-left: 16px;
 }
 @media screen and (min-width: 770px) {
   .slider-list {
@@ -129,26 +108,91 @@ hr {
 @media screen and (min-width: 1440px) {
   .day-five {
     display: flex;
+    gap: 226px;
+    align-items: center;
     justify-content: space-between;
     flex-direction: row-reverse;
   }
-  .btn-section {
-    display: none;
-  }
+
   .five-text {
+    flex-shrink: 0;
     width: 536px;
-  }
-  .swiper {
-    width: 633px;
-    height: 320px;
-  }
-  .img-slider {
-    width: 320px;
   }
   .day-six {
     display: flex;
+    gap: 136px;
+    align-items: center;
   }
   .day-six-text {
+    flex-shrink: 0;
     width: 506px;
+  }
+}
+/* Slick */
+.slick__list {
+  width: 100%;
+  max-width: 920px;
+  margin: 0 auto;
+  display: flex;
+}
+@media screen and (min-width: 770px) {
+  .slick__list {
+    width: 105.7%;
+  }
+}
+/* .slick__box {
+  height: 288px;
+} */
+
+.my-slick-prev,
+.my-slick-next {
+  position: absolute;
+  bottom: -55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  width: 38px;
+  height: 38px;
+  border: rgba(255, 255, 255, 0.5) 1px solid;
+  border-radius: 50%;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  font-family: inherit;
+}
+.my-slick-prev {
+  left: 0;
+}
+@media screen and (min-width: 1440px) {
+  .left-list .my-slick-prev {
+    left: 828px;
+  }
+  .left-list .my-slick-next {
+    left: 882px;
+  }
+}
+
+.my-slick-next {
+  left: 54px;
+}
+
+.img-item {
+  width: 288px;
+  height: 288px;
+}
+.slick__item {
+  margin-right: 32px;
+}
+@media screen and (min-width: 770px) {
+  .img-item {
+    width: 282px;
+    height: 282px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .img-item {
+    width: 285px;
+    height: 285px;
   }
 }

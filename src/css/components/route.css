@@ -1,0 +1,10 @@
+@media screen and (max-width: 1439px) {
+  .svg-route {
+    display: none;
+  }
+}
+.svg-route {
+  position: absolute;
+  z-index: 1;
+  margin-left: 23px;
+}
