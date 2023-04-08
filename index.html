@@ -12,6 +12,17 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@700;900&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&family=Montserrat:wght@400;600;700;900&display=swap"
       rel="stylesheet"
     />
+    <!-- slick -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
     <!-- normalize -->
     <link
       rel="stylesheet"
@@ -27,8 +38,8 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
-    <script type="module" crossorigin src="/travel_project/assets/index-191060ac.js"></script>
-    <link rel="stylesheet" href="/travel_project/assets/index-12544f24.css">
+    <script type="module" crossorigin src="/travel_project/assets/index-28fa6ea0.js"></script>
+    <link rel="stylesheet" href="/travel_project/assets/index-2037e788.css">
   </head>
   <body>
     <header class="header">
@@ -75,11 +86,11 @@
         </svg>
       </button>
     </div>
-
-    <div class="swiper image-slider">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <div class="image-wrapper">
+    <!-- Slider -->
+    <div class="slick slider-list">
+      <div class="slick__list responsive list">
+        <div class="slick__item">
+          <div class="slick__box">
             <img
               src="../images/hero/hero-swiper-first.png"
               srcset="
@@ -87,12 +98,10 @@
                 ../images/hero/hero-swiper-first@2x.png 2x
               "
               alt="swiper-first"
-              width="270"
-              height="267"
             />
           </div>
         </div>
-        <div class="swiper-slide">
+        <div class="slick__item">
           <div class="image-wrapper">
             <img
               src="../images/hero/hero-swiper-second.png"
@@ -101,12 +110,10 @@
                 ../images/hero/hero-swiper-second@2x.png 2x
               "
               alt=""
-              width="270"
-              height="267"
             />
           </div>
         </div>
-        <div class="swiper-slide">
+        <div class="slick__item">
           <div class="image-wrapper">
             <img
               src="../images/hero/hero-swiper-third.png"
@@ -115,14 +122,10 @@
                 ../images/hero/hero-swiper-third@2x.png 2x
               "
               alt=""
-              width="270"
-              height="267"
             />
           </div>
         </div>
       </div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
     </div>
 
     <div class="socials">
@@ -424,10 +427,10 @@
         <p>Продолжительность 6 часов.</p>
       </div>
       <!-- Slider -->
-      <div class="swiper image-slider slider-list">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="image-wrapper">
+      <div class="slick slider-list slider-list-left">
+        <div class="slick__list responsive left-list">
+          <div class="slick__item">
+            <div class="slick__box">
               <img
                 src="../images/day56/img1.jpg"
                 srcset="
@@ -435,11 +438,12 @@
                   ../images/day56/img1@2x.jpg 2x
                 "
                 alt="img1"
+                class="img-item"
               />
             </div>
           </div>
-          <div class="swiper-slide">
-            <div class="image-wrapper">
+          <div class="slick__item">
+            <div class="slick__box">
               <img
                 src="../images/day56/img2.jpg"
                 srcset="
@@ -447,11 +451,12 @@
                   ../images/day56/img2@2x.jpg 2x
                 "
                 alt="img2"
+                class="img-item"
               />
             </div>
           </div>
-          <div class="swiper-slide">
-            <div class="image-wrapper">
+          <div class="slick__item">
+            <div class="slick__box">
               <img
                 src="../images/day56/img3.jpg"
                 srcset="
@@ -459,16 +464,11 @@
                   ../images/day56/img3@2x.jpg 2x
                 "
                 alt="img3"
+                class="img-item"
               />
             </div>
           </div>
         </div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-      </div>
-      <div class="btn-section">
-        <button type="button" class="btn btn-prv">&larr;</button>
-        <button type="button" class="btn btn-next">&rarr;</button>
       </div>
     </div>
     <div class="day-six">
@@ -504,10 +504,10 @@
       </div>
 
       <!-- Slider -->
-      <div class="swiper image-slider slider-list">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="image-wrapper">
+      <div class="slick slider-list">
+        <div class="slick__list responsive list">
+          <div class="slick__item">
+            <div class="slick__box">
               <img
                 src="../images/day56/img1.jpg"
                 srcset="
@@ -515,11 +515,12 @@
                   ../images/day56/img1@2x.jpg 2x
                 "
                 alt="img1"
+                class="img-item"
               />
             </div>
           </div>
-          <div class="swiper-slide">
-            <div class="image-wrapper">
+          <div class="slick__item">
+            <div class="slick__box">
               <img
                 src="../images/day56/img2.jpg"
                 srcset="
@@ -527,34 +528,28 @@
                   ../images/day56/img2@2x.jpg 2x
                 "
                 alt="img2"
+                class="img-item"
               />
             </div>
           </div>
-          <div class="swiper-slide">
-            <div class="image-wrapper">
+          <div class="slick__item">
+            <div class="slick__box">
               <img
-                src="../images/day56/img3.jpg"
+                src="../images/day56/serf.jpg"
                 srcset="
-                  ../images/day56/img3.jpg    1x,
-                  ../images/day56/img3@2x.jpg 2x
+                  ../images/day56/serf.jpg    1x,
+                  ../images/day56/serf@2x.jpg 2x
                 "
                 alt="img3"
+                class="img-item"
               />
             </div>
           </div>
         </div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-      </div>
-      <div class="btn-section">
-        <button type="button" class="btn btn-prv">&larr;</button>
-        <button type="button" class="btn btn-next">&rarr;</button>
       </div>
     </div>
   </div>
 </section>
-
-    <h1 class="day6">d6</h1>
 
     <section class="day7-section section">
     <div class="container">
@@ -686,5 +681,18 @@
     
     
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- slider -->
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
   </body>
 </html>
