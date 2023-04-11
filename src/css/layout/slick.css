@@ -1,0 +1,63 @@
+.slick__list {
+  width: 100%;
+  max-width: 920px;
+  margin: 0 auto;
+  display: flex;
+}
+@media screen and (min-width: 770px) {
+  .slick__list {
+    width: 105.7%;
+  }
+}
+.my-slick-prev,
+.my-slick-next {
+  position: absolute;
+  bottom: -55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  width: 38px;
+  height: 38px;
+  border: rgba(255, 255, 255, 0.5) 1px solid;
+  border-radius: 50%;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  font-family: inherit;
+}
+.my-slick-prev {
+  left: 0;
+}
+@media screen and (min-width: 1440px) {
+  .left-list .my-slick-prev {
+    left: 828px;
+  }
+  .left-list .my-slick-next {
+    left: 882px;
+  }
+}
+
+.my-slick-next {
+  left: 54px;
+}
+
+.img-item {
+  width: 288px;
+  height: 288px;
+}
+.slick__item {
+  margin-right: 32px;
+}
+@media screen and (min-width: 770px) {
+  .img-item {
+    width: 282px;
+    height: 282px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .img-item {
+    width: 285px;
+    height: 285px;
+  }
+}
