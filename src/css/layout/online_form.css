@@ -1,3 +1,232 @@
-.online-form {
-    color: cadetblue;
+.aplication {
+}
+
+.aplication-title {
+  font-family: var(--third-font);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.33;
+  color: var(--main-text-color);
+}
+
+.aplication-socials-list {
+  margin-top: 30px;
+  display: flex;
+  gap: 35px;
+  width: 564px;
+}
+
+.aplication-socials-item {
+}
+
+.input-fields {
+  display: flex;
+  justify-content: space-between;
+  gap: 44px;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+}
+
+.form-label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--main-text-color);
+}
+
+.form-input {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 2.5;
+  color: #999999;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid var(--main-text-color);
+}
+
+.form-input:active,
+.form-input:hover,
+.form-input:focus {
+  color: var(--main-text-color);
+}
+
+.tarif-table-row {
+  line-height: 60px;
+}
+
+.tarif-table-label {
+  font-size: 18px;
+  line-height: 1.33;
+  color: var(--main-black-color);
+}
+
+.aplication-radio-btn {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.aplication-radio-btn + .tarif-table-label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+
+.aplication-radio-btn + .tarif-table-label::before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid var(--primary-color);
+  border-radius: 50%;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+
+.aplication-radio-btn:not(:disabled):not(:checked)
+  + .tarif-table-label:hover::before {
+  border-color: #b3d7ff;
+}
+
+.aplication-radio-btn:focus + .tarif-table-label::before {
+  box-shadow: 0 0 0 0.15rem rgba(39, 85, 83, 0.25);
+}
+
+.aplication-radio-btn:focus:not(:checked) + .tarif-table-label::before {
+  border-color: var(--primary-color);
+}
+
+.aplication-radio-btn:checked + .tarif-table-label::before {
+  border-color: var(--primary-color);
+  background-color: var(--main-white-color);
+  background-image: url(../images/icons.svg#icon-radiobutton);
+  background-size: 12px 12px;
+}
+
+/* .aplication-radio-btn:not(:disabled):not(:checked)
+  + .tarif-table-label:hover::before {
+  background-color: var(--primary-color);
+  background-size: 12px 12px;
+} */
+
+/* .aplication-radio-btn:not(:disabled):active + .tarif-table-label::before {
+  background-color: var(--primary-color);
+  background-size: 12px 12px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-right: 0.5em;
+} */
+
+.tarif-table-price {
+  text-align: right;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--main-black-color);
+}
+
+.aplication-trip-date {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.trip-date-input {
+  width: calc((100% - 44px) / 2);
+}
+
+.textarea {
+  width: 100%;
+  resize: none;
+  height: 60px;
+}
+
+.application-user-message {
+  margin-top: 40px;
+}
+
+.aplication-socials-link {
+  height: 100%;
+  width: 100%;
+}
+
+.aplication-socials-icon {
+  height: 24px;
+  width: 24px;
+}
+
+.aplication-table {
+  width: 100%;
+}
+
+.aplication-sides {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tarif {
+  margin-top: 48px;
+}
+
+.aplication-main-form {
+}
+
+.button-place {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 50px;
+}
+
+.main-form-button {
+  text-align: right;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 14px;
+  height: 40px;
+  line-height: 1.7;
+  color: var(--main-white-color);
+  background: var(--secondary-color);
+  border: 0;
+  border-color: transparent;
+  padding: 8px 32px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.lead-box{
+  margin-top: 356px;
+display: flex;
+width: 864px;
+}
+
+.lead-form {
+}
+.lead-email {
+}
+.lead-submit-button {
+  text-align: right;
+  font-family: inherit;
+  height: 40px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--main-white-color);
+  background: var(--secondary-color);
+  border: 0;
+  border-color: transparent;
+  padding: 8px 32px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
 }
