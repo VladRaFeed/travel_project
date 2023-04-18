@@ -39,7 +39,7 @@
       href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
     <script type="module" crossorigin src="/travel_project/assets/index-28fa6ea0.js"></script>
-    <link rel="stylesheet" href="/travel_project/assets/index-2310217c.css">
+    <link rel="stylesheet" href="/travel_project/assets/index-ecc5acba.css">
   </head>
   <body>
     <header class="header">
@@ -611,7 +611,114 @@
 
     <h1 class="price">price</h1>
 
-    <h1 class="online-form">online-form</h1>
+    <section>
+  <div class="container aplication">
+    <div class="aplication-sides">
+      <div>
+        <h2 class="aplication-title">Онлайн-заявка</h2>
+        <ul class="aplication-socials-list list">
+          <li class="aplication-socials-item">
+            <a class="aplication-socials-link" href="#">
+              <svg class="aplication-socials-icon">
+                <use href="../images/icon.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <svg class="aplication-socials-icon">
+                <use href="../images/icon.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <svg class="aplication-socials-icon">
+                <use href="../images/icon.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <form class="aplication-main-form" id="main-form" autocomplete="on">
+        <div class="input-fields">
+          <div class="form-item">
+            <label class="form-label" for="">Ім’я учасника </label>
+            <input class="form-input" type="text" placeholder="Ім’я" />
+          </div>
+          <div class="form-item">
+            <label class="form-label" for="">Кількість людей </label>
+            <input class="form-input" type="number" min="1" />
+          </div>
+        </div>
+        <h3 class="form-label tarif">Тариф</h3>
+        <table class="aplication-table">
+          <tr class="tarif-table-row">
+            <td>
+              <input class="aplication-radio-btn " type="radio" id="tarif1" name="tarif" value="basic1" />
+              <label class="tarif-table-label" for="tarif1">Базовий</label>
+            </td>
+            <td class="tarif-table-price">36 000 грн</td>
+          </tr>
+          <tr class="tarif-table-row">
+            <td>
+              <input class="aplication-radio-btn visually-hidden" type="radio" id="tarif2" name="tarif" value="basic2" />
+              <label class="tarif-table-label" for="tarif2">Базовий + проживання </label>
+            </td>
+            <td class="tarif-table-price">45 500 грн</td>
+          </tr>
+          <tr class="tarif-table-row">
+            <td >
+              <input class="aplication-radio-btn visually-hidden" type="radio" id="tarif3" name="tarif" value="basic3" />
+              <label class="tarif-table-label" for="tarif3">Базовий + проживання + долина гейзерів </label>
+            </td>
+            <td class="tarif-table-price">82 000 грн</td>
+          </tr>
+        </table>
+
+<div class="aplication-trip-date">
+          <label class="form-label" class="trip-date-label" for="trip-date">Дати подорожі</label>
+          <input class="trip-date-input form-input" id="trip-date" name="trip-date" type="date" />
+</div >
+       <div class="application-user-message">
+          <label class="form-label" for="user-message">Коментар</label>
+          <textarea
+            class="form-input textarea"
+            id="user-message"
+            name="user-message"
+            placeholder="Напишіть ваш комментар тут"
+            required
+          ></textarea>
+       </div >
+        <div class="button-place">
+          <button class="main-form-button" type="submit" form="main-form">
+            Надіслати заявку
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <div class="lead-box">
+      <h3>Що необхідно знати подорожуючи до Японії?</h3>
+      <p>Отримайте пам’ятку туриста залишивши свій e-mail.</p>
+  
+      <form class="lead-form" id="lead-form" autocomplete="on">
+        <label for="lead-email"></label>
+        <input
+          class="form-input"
+          id="lead-email"
+          type="email"
+          name="lead-email"
+          required
+          placeholder="Ваш e-mail"
+        />
+        <button class="main-form-button" type="submit" form="lead-form">
+          Отримати
+        </button>
+      </form>
+    </div >
+  </div>
+</section>
 
     <h1 class="our_team">our_team</h1>
 
