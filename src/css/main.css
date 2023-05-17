@@ -1,4 +1,3 @@
-
 /* Utils */
 @import url('./utils/varibles.css');
 @import url('./utils/visually-hidden.css');
@@ -22,5 +21,6 @@
 @import url('./layout/price.css');
 @import url('./layout/online_form.css');
 @import url('./layout/our_team.css');
+@import url('./layout/footer.css');
 /* modal */
 @import url('./layout/booking_modal.css');
